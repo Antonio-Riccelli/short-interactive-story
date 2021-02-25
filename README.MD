@@ -14,4 +14,4 @@ I plan to expand this to be a fully-functional text-adventure along the lines of
 - [x] Decrease repetition by replacing function combo `print('')`/`time.sleep()` with a dedicated function
 - [ ] Give player choice to pick up Platypus effigy
 - [ ] Add at least two more monsters to the story ("Hollowman","Mouldwoman") with personalised descriptions and situations
-- [x] <del>`time.sleep()` values are inaccurate: add a function that calculates value based on number of characters and/or word length</del> - I did not like how this forced the players to read a fixed speed, rather than going at their own pace. I've changed the dedication function to require user to press any key to continue. This is also highlighted in the intro paragraph. (25/02/2021)
+- [x] <del>`time.sleep()` values are inaccurate: add a function that calculates value based on number of characters and/or word length</del> - I did not like how this forced the players to read a fixed speed, rather than going at their own pace. I've changed the dedicated function to require user to press any key to continue. This is also highlighted in the intro paragraph. (25/02/2021)
