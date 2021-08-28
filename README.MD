@@ -3,7 +3,8 @@
 As per title, a short text-based interactive story written in **Python**.
 Originally one of my project submissions for the "_Introduction to Programming_" nanodegree with [Udacity](www.udacity.com).
 
-Work in progress that should evolve along with my programming skills. It's currently built purely on functions and `if/else` statements, each one representing a "scene", and features only a handful of situations and variants. 
+Work in progress that should evolve along with my programming skills. It's currently built purely on functions and `if/else` statements, each one representing a "scene", and features only a handful of situations and variants.
+Each function block generally either triggers another function (step in the story) or asks you to make a decision, which is then assigned to a variable that gets "fed" as argument/parameter to another function.
 
 I plan to expand this to be a fully-functional text-adventure along the lines of the old ["Zork"](https://en.wikipedia.org/wiki/Zork).
 
@@ -15,3 +16,7 @@ I plan to expand this to be a fully-functional text-adventure along the lines of
 - [ ] Give player choice to pick up Platypus effigy
 - [ ] Add at least two more monsters to the story ("Hollowman","Mouldwoman") with personalised descriptions and situations
 - [x] <del>`time.sleep()` values are inaccurate: add a function that calculates value based on number of characters and/or word length</del> - I did not like how this forced the players to read a fixed speed, rather than going at their own pace. I've changed the dedicated function to require user to press any key to continue. This is also highlighted in the intro paragraph. (25/02/2021)
+
+----
+
+### __This is currently on-hold, as I've switched my focus to JavaScript and Front-end__
